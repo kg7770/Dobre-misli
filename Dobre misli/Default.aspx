@@ -18,7 +18,7 @@
             <table style="margin: 20px;">
                 <tr>
                     <td>
-                        <asp:TextBox ID="misel" runat="server" Height="50px" Width="573px" class="form-control"></asp:TextBox>            
+                        <asp:TextBox ID="misel" runat="server" Height="50px" Width="573px" class="form-control" OnTextChanged="misel_TextChanged"></asp:TextBox>            
                     </td>
                     <td>&nbsp;</td>
                     <td>
